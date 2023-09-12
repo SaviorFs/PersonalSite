@@ -1,0 +1,240 @@
+/* Reset some default styles and apply a basic font */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333; /* Changed text color to a more readable dark gray */
+}
+
+/* Style the header with a dark background and white text */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Added a subtle shadow for a modern look */
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold; /* Added bold font for menu items */
+}
+
+/* Style each section with a white background, padding, and border */
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px; /* Added rounded corners for a modern look */
+}
+
+/* Style the headings and paragraphs */
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333; /* Adjusted heading color */
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666; /* Adjusted text color */
+}
+
+/* Ensure images are responsive and don't overflow their containers */
+img {
+    max-width: 100%; /* Improved image responsiveness */
+    height: auto;
+    display: block; /* Center images horizontally within their containers */
+    margin: 0 auto;
+}
+
+/* Style the footer with a dark background and white text */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2); /* Added a subtle shadow at the top of the footer */
+}
+
+/* Additional styles for the image placement and size */
+.about-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.about-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.about-image {
+    flex: 1;
+    text-align: center; /* Center the image horizontally */
+}
+
+/* Style the image to fit the container */
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px; /* Adjust the maximum height as needed */
+}
+
+.hidden {
+    display: none;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333; /* Adjusted heading color */
+}
+
+label {
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Additional styles for the welcoming section */
+.welcome-content {
+    text-align: center;
+    padding: 40px;
+    background-color: #f9f9f9; /* Changed background color to a light gray */
+    margin: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px; /* Added rounded corners */
+}
+
+.welcome-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.welcome-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+}
+
+/* Hide other sections by default */
+section:not(#welcome) {
+    display: none;
+}
+/* Your previous styles here */
+
+/* Style the education dropdown and content */
+#education-level {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.education-content {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+/* Show the selected education content based on the dropdown */
+#education-level:focus + .education-content {
+    display: block;
+}
+/* Sidebar styles */
+/* styles.css */
+
+/* Add CSS styles for the education section */
+#education {
+    text-align: center;
+}
+
+.education-content {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: left;
+}
+
+.education-content h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.education-content p {
+    font-size: 16px;
+}
+
+/* Style individual images */
+.education-content img {
+    display: block;
+    margin: 0 auto 10px;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.image-container {
+    text-align: center; /* Optional: To center-align the images */
+}
+
+.image-container img {
+    display: inline-block;
+    margin: 10px;
+}

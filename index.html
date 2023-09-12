@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Gahagan - Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showSection('welcome')">Welcome</a></li>
+                <li><a href="#" onclick="showSection('about')">About</a></li>
+                <li><a href="#" onclick="showSection('resume')">Resume</a></li>
+                <li><a href="#" onclick="showSection('education')">Education</a></li>
+                <li><a href="#" onclick="showSection('projects')">Projects</a></li>
+                <li><a href="#" onclick="showSection('contact')">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="welcome">
+        <div class="welcome-content">
+            <h1>Welcome to My Personal Website</h1>
+            <p>
+                Thank you for visiting my personal website. I am actively seeking internship opportunities in the field of Computer Science. As a dedicated Computer Science student at Western Kentucky University, I am fueled by a deep passion for problem-solving and innovation. My journey in computer science has equipped me with proficiency in a wide range of areas, including web development, data structures, and software engineering. I am particularly enthusiastic about the intersection of technology and analytics, and I have a keen interest in data-driven decision-making. Please explore the tabs above to learn more about me, my resume, projects, and how to get in touch. I look forward to connecting with you!
+            </p>
+        </div>
+    </section>
+    <section id="about" class="hidden">
+        <div class="about-content">
+            <div class="about-text">
+                <h1>About Me</h1>
+                <p>
+                    I am a dedicated Computer Science student pursuing my bachelor's degree at Western Kentucky University. With a passion for problem-solving, I thrive in challenging situations
+                    that engage my analytical mind. My interests extend beyond academics, as I am an avid chess player, an active member of the Chess Club at WKU, and a committed participant in
+                    the E-sports program, where I have been a Valorant team player for two years. I am enthusiastic about contributing to the college community, especially when it aligns with
+                    my interests, creating cherished memories along the way.
+                </p>
+            </div>
+            <div class="about-image">
+                <img src="johngahaganesports.png" alt="Me in WKU's Esports Program">
+            </div>
+        </div>
+    </section>
+    <section id="education" class="hidden">
+        <h1>Education</h1>
+        <label for="education-level">Select in the drop down menu more infomation about how I started my journey in computer science</label>
+        <select id="education-level" name="education-level">
+            <option value="college">College</option>
+            <option value="high-school">High School</option>
+            <option value="training">Training</option>
+        </select>
+    
+        <div id="college-courses" class="education-content">
+            <h2>College</h2>
+            <div class="image-container">
+            <img src="WKU Campus.jpg" alt="Campus picture of WKU" width="600" height="400">
+            <img src="WKU Logo.jpeg" alt="WKU's Logo" width="600" height="400">
+        </div>
+            <p>My academic journey has endowed me with a comprehensive and valuable skill set in computer science and technology. I've undertaken a wide spectrum of courses, from foundational computer science to advanced studies in data structures, databases, and software engineering. This educational background has equipped me with proficiency in programming languages, web development, and data manipulation, underpinned by a strong understanding of core computer science concepts. My ability to analyze complex problems and develop innovative solutions has been honed through hands-on collaborative projects, enhancing my teamwork and project management skills. With this solid foundation, I am well-prepared and eager to contribute my expertise to your team, offering a systematic and analytical approach to challenges, making me an ideal candidate for your internship/job opportunity.</p>
+           <h3>CIS 141 Analytics and Technology:</h3>
+            <p>
+            In this course, I gained a foundational understanding of analytics and technology. I learned how to collect, analyze, and interpret data to make informed decisions. This course provided me with insights into the role of data in modern business and technology environments, helping me develop a  <h3>Computer Science 1:</h3>
+            <p>
+            This introductory course introduced me to the core concepts of computer science. Idamentals of programming logic and problem-solving using a programm. It laid the groundwork for my subsequent coursework, enabling me to grasp more advanced topics in the field.
+
+            <h3>Computer Science 2:</h3>
+            <p>
+            Building upon the concepts from Computer Science 1, this course delved deeper into programming and algorithm development. I gained proficiency in coding, data structures, and algorithm design, which are essential skills for software development and problem-solving in computer science.
+            </p>
+            <h3>Calculus:</h3>
+            <p>
+            My studies in calculus provided me with a strong mathematical foundation. I learned calculus concepts such as derivatives and integrals, which are often used in computer science and engineering for solving complex problems and modeling real-world phenomena.
+            </p>
+            <h3>Intro to Web Programming:</h3>
+            <p>
+            In this course, I acquired practical skills in web development. I became proficient in HTML, CSS, and JavaScript, enabling me to create interactive and visually appealing web applications. This course laid the foundation for my web development expertise.
+            </p>
+            <h3>Data Structures:</h3>
+            <p>
+            This course deepened my understanding of data structures such as hashmaps, trees, arrays, and more. I learned how to select and implement the appropriate data structures for different programming tasks, improving code efficiency and problem-solving capabilities.
+            </p>
+            <h3>Database Management Systems 1:</h3>
+            <p>
+            During this course, I gained expertise in database management and SQL. I learned how to design and implement databases, perform data manipulation, and optimize database performance. This knowledge is vital for developing applications that rely on data storage and retrieval.
+            </p>
+            <h3>Game Programming:</h3>
+            <p>
+            Game Programming introduced me to the world of game development. I learned how to create interactive games, work with game engines, and apply game design principles. This course provided hands-on experience in developing interactive and entertaining software.
+            </p>
+            <h3>Computer Org and Arch:</h3>
+            <p>
+            In this course, I explored computer organization and architecture. I learned how computers are designed, including CPU architecture, memory systems, and input/output mechanisms. Understanding computer architecture is crucial for optimizing software performance.
+            </p>
+            <h3>Software Engineering:</h3>
+            <p>
+            This comprehensive course covered the entire software development lifecycle. I gained experience in project management, requirement analysis, design, coding, testing, and deployment. Collaborating with a team on real-world projects honed my teamwork and communication skills.
+            </p>
+            <h3>Database Management Systems 2:</h3>
+            <p>
+            Building on the foundations of the first database management systems course, I delved deeper into advanced database topics. I learned about database security, transaction management, and distributed databases, which are essential for handling complex data management challenges.
+            </p>
+        </div>
+    
+        <div id="high-school-courses" class="education-content">
+            <h2>High School</h2>
+            <div class="image-container">   
+            <img src="FSHS Highschool.jpg" alt="Building of FSHS" width="600" height="400">
+            <img src="FSHS Wildcats.jpg" alt="Logo from FSHS" width="600" height="400">
+        </div>
+            <p>During my high school years, I discovered a profound passion for computer science, igniting my journey into this dynamic field. Committed to pursuing excellence, I actively chose the computer/technology pathway as part of my school's college and career readiness program. This strategic decision allowed me to immerse myself in foundational concepts, laying the groundwork for my venture into the world of technology. My high school experience not only nurtured my interest but also instilled in me a drive for continuous learning and innovation. It was here that I first glimpsed the exciting possibilities that computer science offers, and I am eager to further cultivate my skills and contribute to your organization's success in this ever-evolving field.</p>
+        <p>In addition to my strong academic foundation, I've also earned several industry-recognized certifications during my high school journey. These certifications include proficiency in Microsoft Office, PowerPoint, Adobe Animate, Excel, and Word. These achievements not only highlight my dedication to acquiring practical skills but also underscore my commitment to staying current with the latest tools and technologies. As I embark on my career in computer science, these certifications serve as a testament to my readiness and capability to leverage these software applications effectively to drive productivity and innovation in the workplace. I'm enthusiastic about the opportunity to apply my expertise and certifications to contribute to your organization's goals and projects, helping to propel them to new heights in the tech industry.</p>
+       <p>In addition to my strong academic foundation, I've also earned several industry-recognized certifications during my high school journey. These certifications include proficiency in Microsoft Office, PowerPoint, Adobe Animate, Excel, and Word. These achievements not only highlight my dedication to acquiring practical skills but also underscore my commitment to staying current with the latest tools and technologies. As I embark on my career in computer science, these certifications serve as a testament to my readiness and capability to leverage these software applications effectively to drive productivity and innovation in the workplace. I'm enthusiastic about the opportunity to apply my expertise and certifications to contribute to your organization's goals and projects, helping to propel them to new heights in the tech industry.</p>
+    </div>
+    
+        <div id="training" class="education-content">
+            <h2>Training</h2>
+            <div class="image-container">
+            <img src="GitHub Logo.jpg" alt= "Logo from GitHub" width="600" height="400">
+            <img src="LeetCode Logo.png" alt="Logo from Leetcode" width="600" height="400">
+        </div>
+            <p>In my relentless pursuit of knowledge and personal growth, I go beyond the confines of traditional education to hone my skills and satisfy my insatiable curiosity. I actively engage with a multitude of online platforms and resources, consistently seeking opportunities to enhance my expertise. Websites like Code Academy, LeetCode, GitHub, and Stack Overflow have become my trusted companions in this journey of continuous learning.</p>
+        <p>My commitment to self-improvement extends beyond the classroom, demonstrating a proactive and self-motivated approach to skill development. Through platforms like Code Academy, I've enchanced my knowledge in various coding languages and frameworks, expanding my technical prowess. LeetCode has sharpened my problem-solving abilities, challenging me with real-world coding challenges that have refined my algorithmic thinking. My engagement on GitHub showcases my dedication to collaborative development, while Stack Overflow has been an invaluable resource for both seeking guidance and contributing my expertise to the programming community.</p>
+       <p>My passion for constant growth and my ability to harness digital resources effectively make me an ideal student looking for more. I am eager to contribute my knowledge, enthusiasm, and a commitment to self-improvement to a dynamic team while continuously pushing the boundaries of my capabilities.</p>
+    </div>
+    </section>
+    <section id="resume" class="hidden">
+        <h1>Resume</h1>
+            <p><a href="Resume (5).pdf" download>Click here to download</a></p>
+        <iframe src="Resume (5).pdf" width="100%" height="600px"></iframe>
+    </section>
+    <section id="projects" class="hidden">
+        <h1>Projects</h1>
+        <h2>Project 1: Personal Website</h2>
+        <p>Creating my own website using a combination of technologies such as HTML, CSS, JavaScript, PHP, and a database has significantly enhanced my programming skills and made me a more attractive candidate for internships or entry-level positions. This project allowed me to apply my knowledge practically and gain hands-on experience in full-stack development, covering both front-end and back-end aspects of web development.</p>
+        <p>By working on this web project, I encountered real-world challenges and learned to solve problems related to database design, server-side scripting, user authentication, and web security. These are highly sought-after skills in the job market, and showcasing my ability to address them effectively through my project demonstrates my readiness for professional roles.</p>
+        <p>Furthermore, my website serves as a tangible portfolio piece that demonstrates my coding prowess to potential employers. It showcases my commitment to continuous learning, adaptability to new technologies, and my willingness to take initiative in the field. In interviews, discussing my project allows me to highlight my communication skills and my ability to explain technical concepts, making me a well-rounded candidate for internships and entry-level positions in the tech industry.</p>
+    <h2>More projects to come!</h2>
+    </section>
+    <section id="contact" class="hidden">
+        <div class="container">
+            <h1>Contact Me</h1>
+            <form id="contact-form" action="submit.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+    <script src="script.js"></script>
+    <footer>
+        <p>&copy; 2023 John Gahagan</p>
+    </footer>
+</body>
+</html>
